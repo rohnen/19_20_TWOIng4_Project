@@ -3,12 +3,16 @@ RAJU Rohnen REYMOND Lucas OCRES Groupe 2
 lien trello : https://trello.com/b/j9LU2L33/dashboard
 
 Les npm install a faire :
+                      FRONT :
                      npm install --save boostrap
                      npm install --save fusioncharts
                      npm install --save fusionmaps
                      npm install --save axios
                      npm install --save react-router-dom
                      npm install recharts
+                     
+                     BACK :
+                     npm install mongoose
                      
 # Projet de fin de semestre
 
