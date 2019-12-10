@@ -1,6 +1,7 @@
 RAJU Rohnen REYMOND Lucas OCRES Groupe 2
 
 lien trello : https://trello.com/b/j9LU2L33/dashboard
+lien loom : https://www.loom.com/share/f9f60acad3a14e978f675ea8f767bdad
 
 Les npm install a faire :
                       FRONT :
