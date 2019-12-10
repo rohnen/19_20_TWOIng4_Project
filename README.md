@@ -1,3 +1,15 @@
+RAJU Rohnen REYMOND Lucas OCRES Groupe 2
+
+lien trello : https://trello.com/b/j9LU2L33/dashboard
+
+Les npm install a faire :
+                     npm install --save boostrap
+                     npm install --save fusioncharts
+                     npm install --save fusionmaps
+                     npm install --save axios
+                     npm install --save react-router-dom
+                     npm install recharts
+                     
 # Projet de fin de semestre
 
 A lire impérativement avant de commencer quoi que ce soit, ce sont les règles que vous devrez appliquer tout au long du semestre:
