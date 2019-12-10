@@ -10,6 +10,7 @@ import Dashwidget from './Dashwidget';
 import Routes from './routes';
 import {Link} from 'react-router-dom';
 /*import Userlist from './component/getdata';*/
+/*https://scotch.io/tutorials/building-an-online-retail-dashboard-in-react*/
 
 class App extends Component {
   render(){
