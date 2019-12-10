@@ -5,6 +5,8 @@ import img from './img.png';
 import './accueil.css';
 import Widget from './Widget';
 import Widget1 from './Widget1';
+import List from './getdata';
+import userList from './getdata';
 
 
 class Dashwidget extends Component {
@@ -14,49 +16,62 @@ class Dashwidget extends Component {
         {/*1ère rangée de 4 widgets*/}
         <Container className="row">
 
-          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
+        <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
             <Container className="card grid-card is-card-dark">
+              <Container>
               <Container className="card-heading">
                 <Container className="is-dark-text-light letter-spacing text-small">
-                  Nombre d'absences :
+                <List/>
                 </Container>
               </Container>
-              <p className="nbre">20</p>
-            </Container> 
+              </Container>
+            </Container>
+        </Container> 
+
+          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
+            <Container className="card grid-card is-card-dark">
+              <Container>
+              <Container className="card-heading">
+                <Container className="is-dark-text-light letter-spacing text-small">
+                  Id : 2
+                </Container>
+                Location : czech republic 
+              </Container>
+              PersonInhouse : 6 
+              </Container>
+              Housesize : small
+            </Container>
+          </Container>   
+
+          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
+            <Container className="card grid-card is-card-dark">
+              <Container>
+              <Container className="card-heading">
+                <Container className="is-dark-text-light letter-spacing text-small">
+                  Id : 3
+                </Container>
+                Location : italy 
+              </Container>
+              PersonInhouse : 2 
+              </Container>
+              Housesize : big
+            </Container>
+          </Container>  
+
+          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
+            <Container className="card grid-card is-card-dark">
+              <Container>
+              <Container className="card-heading">
+                <Container className="is-dark-text-light letter-spacing text-small">
+                  Id : 4
+                </Container>
+                Location : greece 
+              </Container>
+              PersonInhouse : 4 
+              </Container>
+              Housesize : medium
+            </Container>
           </Container> 
-
-          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
-            <Container className="card grid-card is-card-dark">
-              <Container className="card-heading">
-                <Container className="is-dark-text-light letter-spacing text-small">
-                  Cours suivant : 
-                </Container>
-              </Container>  
-              <p className="nbre">Cours de design thinking</p>
-            </Container> 
-          </Container>   
-
-          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
-            <Container className="card grid-card is-card-dark">
-              <Container className="card-heading">
-                <Container className="is-dark-text-light letter-spacing text-small">
-                  Nombre de retard :
-                </Container>
-              </Container> 
-              <p className="nbre">10</p>
-            </Container> 
-          </Container>   
-
-          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
-            <Container className="card grid-card is-card-dark">
-              <Container className="card-heading">
-                <Container className="is-dark-text-light letter-spacing text-small">
-                  Nouvelle Note reçue :
-                </Container>
-              </Container> 
-              <p className="nbre">20</p>
-            </Container> 
-          </Container>
 
         </Container>  
         

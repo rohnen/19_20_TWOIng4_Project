@@ -9,6 +9,7 @@ import Form from './formulaire';
 import Dashwidget from './Dashwidget';
 import Routes from './routes';
 import {Link} from 'react-router-dom';
+/*import Userlist from './component/getdata';*/
 
 class App extends Component {
   render(){
@@ -23,7 +24,7 @@ class App extends Component {
         <Container className="navbar-nav ml-auto">
           <Container className="user-detail-section">
               <span className="pr-2">
-                <a> Objets connectés! </a>
+                <a> Bienvenue sur cette Dashboard en ligne ! </a>
               </span>
               <span className="logo-search">
                 <img src={img} className="rounded-circle" alt="user" />
@@ -32,12 +33,13 @@ class App extends Component {
         </Container>
       </Nav>
 
-      
       <Nav className="navbar fixed-top nav-secondary is-dark is-light-text">
           <Container className="text-medium"><button><Link to="/Dashwidget">Widgets</Link></button></Container>
           <Container className="text-medium"><button><Link to="/form">Incrementer</Link></button></Container>
       </Nav>
       <Routes/>
+
+     
      
   </Container>
 
