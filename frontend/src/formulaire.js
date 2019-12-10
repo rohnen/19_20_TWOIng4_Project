@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import extraitListe from './axdata'
+
 
 
 
@@ -34,7 +34,7 @@ class Form extends Component{
                         </div>
                     </td>    
                 </tr>  
-            <extraitListe/>
+            
             </div>
             
         );
